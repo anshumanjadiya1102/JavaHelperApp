@@ -1,0 +1,16 @@
+[
+  {"category": "Basics", "question": "What is Java?", "answer": "Java is a high-level, object-oriented programming language developed by Sun Microsystems (now Oracle)."},
+  {"category": "Basics", "question": "How to declare a variable?", "answer": "Syntax: type variableName = value; Example: int x = 10;"},
+  {"category": "OOP", "question": "What is a class?", "answer": "A class in Java is a blueprint for creating objects. It can contain fields and methods."},
+  {"category": "OOP", "question": "What is inheritance?", "answer": "Inheritance allows a class to acquire properties and methods from another class using 'extends'."},
+  {"category": "OOP", "question": "What is polymorphism?", "answer": "Polymorphism allows objects to be treated as instances of their parent class, enabling method overriding and dynamic method dispatch."},
+  {"category": "Collections", "question": "What is ArrayList?", "answer": "ArrayList is a resizable array implementation of the List interface."},
+  {"category": "Collections", "question": "Difference between ArrayList and LinkedList?", "answer": "ArrayList: fast random access, slower insert/delete. LinkedList: slower random access, faster insert/delete."},
+  {"category": "Streams", "question": "What is Java Stream API?", "answer": "Stream API allows processing sequences of elements in a functional style, supporting map, filter, reduce operations."},
+  {"category": "Concurrency", "question": "What is a thread?", "answer": "A thread is a lightweight process that can run concurrently with other threads within the same program."},
+  {"category": "Concurrency", "question": "What is synchronized?", "answer": "The synchronized keyword ensures that only one thread can access a block of code or method at a time."},
+  {"category": "Exceptions", "question": "What is an exception?", "answer": "An exception is an event that occurs during the execution of a program, disrupting the normal flow of instructions."},
+  {"category": "Exceptions", "question": "Difference between checked and unchecked exceptions?", "answer": "Checked exceptions must be handled or declared; unchecked exceptions (RuntimeException) do not require explicit handling."},
+  {"category": "JavaFX", "question": "What is JavaFX?", "answer": "JavaFX is a GUI toolkit for Java that allows building rich desktop applications with UI controls, charts, and media support."},
+  {"category": "JavaFX", "question": "How to create a button in JavaFX?", "answer": "Example:\nButton btn = new Button(\"Click Me\");\nbtn.setOnAction(e -> System.out.println(\"Button clicked!\"));"}
+]
